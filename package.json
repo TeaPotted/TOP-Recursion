@@ -1,0 +1,24 @@
+{
+  "name": "top-recursion",
+  "version": "1.0.0",
+  "description": "The Odin Project's Recursion project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeaPotted/TOP-Recursion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/TeaPotted/TOP-Recursion/issues"
+  },
+  "homepage": "https://github.com/TeaPotted/TOP-Recursion#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^8.0.2"
+  }
+}
