@@ -15,4 +15,21 @@ function fibs(n) {
   return result;
 }
 
-export {fibs}
+// now write another function fibsRec which solves the same problem as fibs, but with recursion instead of iteration
+function fibsRec(n) {
+  // set the base cases:
+  if (n <= 1) return [0];
+  if (n <= 2) return [0, 1]
+
+  // get the previous fibonacci sequence array
+  let arr = fibsRec(n - 1);
+  // get the length of arr
+  let l = arr.length;
+
+  // add the [ previous value in arr ] + [ second previous value in arr ] and push it to arr
+  arr.push(arr[l - 1] + arr[l - 2])
+  return arr
+}
+
+
+export {fibs, fibsRec}
